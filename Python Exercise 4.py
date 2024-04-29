@@ -54,9 +54,26 @@
 # # "You have to Enter 5 characters, pls try again!\n"
 # # "Enteru 5 characteru, oge-saimasu: ")
 
-# # Exercise 4.1
-# sick_days = [10, 4, 5, 19]
-# sum_of_it = sum(sick_days)
-# days_dancing = 365 - sum_of_it
-# print(f"Frank was sick for {sum_of_it} days. \n"
-#       f"He went dancing for {days_dancing} days.")
+# Exercise 4.1
+sick_days = [10, 4, 5, 19]
+sum_of_it = sum(sick_days)
+days_dancing = 365 - sum_of_it
+if sum_of_it < 0:
+    print(f"Frank can't be sick for {sum_of_it} ")
+# else:
+#     print(f"Frank was sick for {sum_of_it} days. \n"
+#           f"He went dancing for {days_dancing} days.")
+
+# # Exercise 4.2
+sick_days_2 = [7, 8, 2, 22]
+finito_sick_days = sick_days + sick_days_2
+print(f"The full list of Frank's sick days is:{finito_sick_days}")
+quarter_year_1 = max(sick_days)
+quarter_year_2 = max(sick_days_2)
+if quarter_year_1 > quarter_year_2:
+    print(f"Frank was sick the most in quarter {quarter_year_1} of the "
+          f"first year.")
+else:
+    print(f"Frank was sick the most in quarter {quarter_year_2} of the "
+          f"second year.")
+
