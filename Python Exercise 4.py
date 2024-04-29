@@ -54,7 +54,7 @@
 # # "You have to Enter 5 characters, pls try again!\n"
 # # "Enteru 5 characteru, oge-saimasu: ")
 
-# # Exercise 4
+# # Exercise 4.1
 # sick_days = [10, 4, 5, 19]
 # sum_of_it = sum(sick_days)
 # days_dancing = 365 - sum_of_it
