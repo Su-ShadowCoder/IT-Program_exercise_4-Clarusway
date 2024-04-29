@@ -18,7 +18,7 @@
 # else:
 #     print("This list is NOT empty!")
 
-# Exercise 2
+# # Exercise 2
 data_lst = []
 
 while True:
@@ -29,6 +29,14 @@ while True:
     if choice.casefold() == "n":
         break
 data_lst.sort()
+
+lst_max_numb = max(data_lst)
+lst_min_numb = min(data_lst)
+
+data_lst.remove(lst_max_numb)
+data_lst.remove(lst_min_numb)
+
 print(data_lst)
+
 
 
