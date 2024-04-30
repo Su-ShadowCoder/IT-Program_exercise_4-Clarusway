@@ -40,43 +40,42 @@
 
 # # Exercise 3
 # user_input = list(input("Enter a list, and i wil convert to a string: "))
-# print(user_input[:])
+# print(user_input)
 # # lst_1 = list(user_input)
 # # lst_1 = ['h', 'e', 'l', 'l', 'o']
 # # print(lst_1)
-# lst_2 = "".join([str(i) for i in user_input])
-# lst_2 = "".join([str(i) for a, i in enumerate(user_input)])
-# print(lst_2)
-# ['h', 'e', 'l', 'l', 'o']
-# print(finito)
+# # lst_2 = "".join([str(i) for i in user_input])
+# # lst_2 = "".join([str(i) for a, i in enumerate(user_input)])
+# # print(lst_2)
+# # ['h', 'e', 'l', 'l', 'o']
+# # print(finito)
+# hello
+# print("oowwh my godddd, This listu doesntu have the rightu sizuuuuu!\n"
+# "You have to Enter 5 characters, pls try again!\n"
+# "Enteru 5 characteru, oge-saimasu: ")
+
+# # Exercise 4.1
 #
-# # print("oowwh my godddd, This listu doesntu have the rightu sizuuuuu!\n"
-# # "You have to Enter 5 characters, pls try again!\n"
-# # "Enteru 5 characteru, oge-saimasu: ")
-
-# Exercise 4.1
-
-sick_days = [0, 10, 4, 5, 19]
-sum_of_it = sum(sick_days)
-days_dancing = 365 - sum_of_it
-if sum_of_it < 0:
-    print(f"Frank can't be sick for {sum_of_it} ")
-# else:
-#     print(f"Frank was sick for {sum_of_it} days. \n"
-#           f"He went dancing for {days_dancing} days.")
-
+# sick_days = [0, 10, 4, 5, 19]
+# sum_of_it = sum(sick_days)
+# days_dancing = 365 - sum_of_it
+# if sum_of_it < 0:
+#     print(f"Frank can't be sick for {sum_of_it} ")
+# # else:
+# #     print(f"Frank was sick for {sum_of_it} days. \n"
+# #           f"He went dancing for {days_dancing} days.")
+#
 # # Exercise 4.2
-sick_days_2 = [0, 7, 8, 2, 12]
-finito_sick_days = sick_days + sick_days_2
-print(f"The full list of Frank's sick days is:{finito_sick_days}")
-quarter_year_1 = max(sick_days)
-quarter_year_2 = max(sick_days_2)
-index_1 = sick_days.index(max(sick_days))
-index_2 = sick_days_2.index(max(sick_days_2))
-if quarter_year_1 > quarter_year_2:
-    print(f"Frank was sick the most in quarter {index_1} of the "
-          f"first year.")
-else:
-    print(f"Frank was sick the most in quarter {index_2} of the "
-          f"second year.")
-
+# sick_days_2 = [0, 7, 8, 2, 12]
+# finito_sick_days = sick_days + sick_days_2
+# print(f"The full list of Frank's sick days is:{finito_sick_days}")
+# quarter_year_1 = max(sick_days)
+# quarter_year_2 = max(sick_days_2)
+# index_1 = sick_days.index(max(sick_days))
+# index_2 = sick_days_2.index(max(sick_days_2))
+# if quarter_year_1 > quarter_year_2:
+#     print(f"Frank was sick the most in quarter {index_1} of the "
+#           f"first year.")
+# else:
+#     print(f"Frank was sick the most in quarter {index_2} of the "
+#           f"second year.")
