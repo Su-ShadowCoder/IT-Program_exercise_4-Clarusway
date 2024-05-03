@@ -39,20 +39,26 @@
 # print(data_lst)
 
 # # Exercise 3
-# user_input = list(input("Enter a list, and i wil convert to a string: "))
-# print(user_input)
-# # lst_1 = list(user_input)
-# # lst_1 = ['h', 'e', 'l', 'l', 'o']
-# # print(lst_1)
-# # lst_2 = "".join([str(i) for i in user_input])
-# # lst_2 = "".join([str(i) for a, i in enumerate(user_input)])
-# # print(lst_2)
-# # ['h', 'e', 'l', 'l', 'o']
-# # print(finito)
-# hello
-# print("oowwh my godddd, This listu doesntu have the rightu sizuuuuu!\n"
-# "You have to Enter 5 characters, pls try again!\n"
-# "Enteru 5 characteru, oge-saimasu: ")
+# # With user input
+# userinput_list = []
+#
+# while True:
+#     character_input = input("Enter a Character from the list in order. \n"
+#                             "Remember to Enter 5 characters! : ")
+#     userinput_list.append(character_input)
+#     if len(userinput_list) == 5:
+#         break
+# userinput_list = "".join(userinput_list)
+# print(userinput_list)
+#
+# Without user input. list in code
+# lst = ['h', 'e', 'l', 'l', 'o']
+# string = "".join(lst)
+# if len(string) == 5:
+#     print(string)
+# else:
+#     print("Enter a list with only 5 characters!")
+# -----------------
 
 # # Exercise 4.1
 #
